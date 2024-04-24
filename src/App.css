@@ -1,0 +1,69 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.request-button {
+  width: 400px;
+  padding: 20px;
+  background-color: green;
+  color: white;
+}
+
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e8e5e5;
+  margin: 10px;
+}
+
+.film-card {
+  border: 1px solid;
+  margin: 10px;
+  width: 32%;
+}
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+.user-card-container {
+  align-items: center;
+  width: 30%;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 8px 18px 3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 3px 8px 18px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 8px 18px 3px rgba(0,0,0,0.75);
+}
+
+.user-avatar {
+  width: 100px;
+  border-radius: 50px;
+  margin: 20px;
+}
+
+.list-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid;
+  margin: 10px;
+}
+
